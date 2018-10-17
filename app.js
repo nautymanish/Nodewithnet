@@ -1,13 +1,10 @@
 var express = require("express");
 var http = require("http");
-
+var controllers = require("./controllers");
 
 var app = express();
 app.set("view engine", "vash");
-app.get("/", function(req, res)
-{
-res.send('<html><title>FU U!</title><body>Hello there</body></html>');
-});
+controllers.init(app);
 var server = http.createServer(app);
 
 server.listen(7787);

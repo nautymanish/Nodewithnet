@@ -1,0 +1,7 @@
+<html>
+<title>@model.title</title>
+<body>
+This is within the layout the below content is injected via  function
+@html.block("main")
+</body>
+</html>
