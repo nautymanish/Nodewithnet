@@ -1,0 +1,16 @@
+{
+  "name": "FunWithNode",
+  "version": "0.0.0",
+  "description": "FunWithNode",
+  "main": "app.js",
+  "author": {
+    "name": "Manish Nautiyal",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "~3.4.8"
+  },
+  "devDependencies": {
+    "vash": "^0.12.4"
+  }
+}
