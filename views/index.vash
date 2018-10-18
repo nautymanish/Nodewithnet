@@ -7,8 +7,8 @@
         <p>Error occured  @model.error  </p>
     }
     @model.categories.forEach(function(category){
-        <div><span>@category.name</span></div>
-    });
+        <div><span>@(category.notes.length? category.notes.length : 0 )</span> &nbsp <a href='#'>@category.name</a></div>
+    })
     <h1> This is from the custom index page </h1>
 })
 

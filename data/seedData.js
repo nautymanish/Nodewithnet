@@ -1,7 +1,7 @@
 (function (seedData) {
     seedData.initalNotes = [
         {
-            name: "History",
+            name: "History Old",
             notes: [{
                 note: "Test Notes 1",
                 author: "Manish",
